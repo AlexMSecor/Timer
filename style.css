@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 300px;
+}
+
+button {
+    height: 75px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #616161;
+    color: #F5F5F5;
+    border: none;
+    flex-grow: 1;
+}
+
+button:hover {
+    background-color: #757575;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #424242;
+}
+
+.timer-display {
+    display: flex;   
+    justify-content: center;
+}
+
+.timer-value {
+    width: 200px;
+    font-size: 70px;
+    font-family: "Avenir Next", Arial, sans-serif;
+    color: #F5F5F5;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.timer-value:hover {
+    color: #BDBDBD;
+}
+
+.timer-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
